@@ -24,11 +24,43 @@
         </div> 
     </div> 
 
-    <div class="space2">
+    <div class="space2 page-section " id="kontakti">
     </div>
 
+    <div class="parastz" > {{-- Kontakti --}}
+        <p class="fonts1 text-center h5 text-light">Kontakti</p>
+
+        <div class="row justify-content-center text-center "> 
+          
+          <div class="col-md-5 col-lg-4 card-deck">
+              <div class="card cauri">
+                  <div class="  ">
+                      <h5 class="card-title ">Rezervēt</h5>
+                      <h4 class="card-text ">* Izbraukumiem<br>
+                        * Uz vietas arēnā</h4>
+                        <a href="tel:+37127881757" class="card-text"><h5>Rēzekne: <b>27 881 757</b></h5></a>
+                        <a href="tel:+37126265623" class="card-text"><h5>Litene: <b>26 265 623</b></h5></a>
+                        
+                        <p><br></p>
+                  </div>
+              </div>
+          </div>
+            
+
+          </div>
+      </div>
+    <div class="space2">
+    </div>
+    <div class="space">
+    </div>
+    <div class="space2 page-section " id="spele">
+    </div>
+
+
+
+
     <div>
-        <div class="page-section" id="spele"> {{-- Par speli --}}    
+        <div> {{-- Par speli --}}    
             <div class = "container ">
                 <h1 class="text-light"><b>Par Spēli</b></h1>
                 <div class="row">
@@ -38,7 +70,6 @@
 
                         <h3 class="text-light txtbreak2">Lāzertaga spēlē tiek izmantots infrasarkanais stars, kas nav kaitīgs veselībai, nerada zilumus un ir precīzs līdz pat 250m. Šāvienus uztver uz spēlētāja galvas esošais apsējs, kas trāpījuma gadījumā vibrē, rada skaņas un gaismas signālus.
                         <br><br>Tev nav jābūt kaujas simulācijas spēļu fanam, lāzertagu var spēlēt ikviens. Ņem draugus, ģimeni vai kolēģus un laidies aizraujošā piedzīvojumā! 
-                        <br><br>Tev nav jābūt kaujas simulācijas spēļu fanam, lāzertagu var spēlēt ikviens. Ņem draugus, ģimeni vai kolēģus un laidies aizraujošā piedzīvojumā!
                         <br><br><br><b>Organizējam lāzertaga spēles jūsu privātajos pasākumos mūsu arēnā, kā arī jebkurā vietā pēc Jūsu izvēles gan telpās, gan ārā:</b>
                         <br>* skolēnu ekskursijām;
                         <br>* draugu kompānijām;
@@ -77,7 +108,7 @@
 
 
     <div>
-        <div class="page-section " >
+        <div class="" >
         </div>
         <div class="parastz" > {{-- Cenas --}}
             <p class="fonts1 text-center h5 text-light">Cenas</p>
@@ -90,7 +121,7 @@
                           <h5 class="card-title ">Arēnā</h5>
                           <h4 class="card-text ">Pirmā stunda – 7.00 EUR/pers <br>
                             Katra nākamā – 5.00 EUR/pers <br> Jubilāram spēle bez maksas <br> <br> <br></h4>
-                            <a href="#" type="button" class="btn btn-outline-dark ">Rezervēt</a>
+                            <a href="#kontakti" type="button" class="btn btn-outline-dark ">Rezervēt</a>
                             <p><br></p>
                       </div>
                   </div>
@@ -103,7 +134,7 @@
                           <h4 class="card-text">Pirmā stunda – 7.00 EUR/pers <br>
                             Katra nākamā – 5.00 EUR/pers <br> + 0,30 EUR par 1 km <br>
                             Piepūšamie šķēršļi – 30.00 EUR/pasākums <br> Jubilāram spēle bez maksas <br></h4>
-                            <a href="#" type="button" class="btn btn-outline-dark">Rezervēt</a>
+                            <a href="#kontakti" type="button" class="btn btn-outline-dark">Rezervēt</a>
                             <p><br></p>
                       </div>
                   </div>

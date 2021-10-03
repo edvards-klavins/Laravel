@@ -63,6 +63,12 @@
                         </li>
 
                         <li class="nav-item">
+                            <a class="nav-link" href="#kontakti">
+                                Kontakti
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
                             <a class="nav-link" href="#spele">
                                 Par Spēli
                             </a>

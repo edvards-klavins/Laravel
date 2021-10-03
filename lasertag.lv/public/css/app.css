@@ -15010,6 +15010,11 @@ input[type=button].btn-block {
 
 }
 
+a[href^="tel:"] {
+  font-size: 12px;
+  color: black;
+}
+
 .navvvv {
   height: 3em;
 }
