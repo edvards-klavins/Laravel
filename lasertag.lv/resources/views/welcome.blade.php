@@ -16,13 +16,36 @@
 <body class="bg-gray data-spy="scroll" data-target=".navbar" data-offset="50"">
 
 
-    <div class="section2" id="homee"> {{-- Augsas img --}}
+    <div class="section2" id="homee"> {{-- Augsas img  --}}
         <div class="img1 text-center d-flex align-items-center txtbreak ">
             
             <h1 ><b>Lāzertags – tava izvēle lieliskai izklaidei! <br> Izjūti spriedzi, adrenalīnu un komandas garu – aizraujošā lāzertaga spēlē mūsu arēnās Rēzeknē un Litenē, kā arī izbraukumos jebkurā vietā Latvijā!</b></h1>
             
         </div> 
     </div> 
+
+
+
+    <div class="space2 ">
+    </div >
+
+    {{--<example-component></example-component>
+    
+    <edito-vue></edito-vue>--}}
+
+
+    <script>
+        import VueDocumentEditor from 'vue-document-editor'
+        
+        export default {
+          components: { VueDocumentEditor },
+          data () {
+            return { 
+              content: ["<h1>Hello!</h1>Fill this page with text and new pages will be created as it overflows."]
+            }
+          }
+        }
+        </script>
 
     <div class="space2 page-section " id="kontakti">
     </div>

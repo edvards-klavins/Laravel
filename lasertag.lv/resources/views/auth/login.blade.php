@@ -1,6 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
+</div>
+<div class="space">
+</div>
 <body class="bacck">
 <div class="container">
     <div class="row justify-content-center">

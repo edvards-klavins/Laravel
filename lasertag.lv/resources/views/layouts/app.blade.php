@@ -97,6 +97,36 @@
                                 Litenes Arēna
                             </a>
                         </li>
+
+
+
+
+                        <ul class="navbar-nav ml-auto">
+                            <!-- Authentication Links -->
+                            @guest
+   
+
+                            @else
+                                <li class="nav-item ">
+    
+                                    <div class="-menu -menu-right" aria-labelledby="navbar">
+                                        <a class="-item" href="{{ route('logout') }}"
+                                           onclick="event.preventDefault();
+                                                         document.getElementById('logout-form').submit();">
+                                            {{ __('Logout') }}
+                                        </a>
+    
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
+                                    </div>
+                                </li>
+                            @endguest
+                        </ul>
+
+                        
+
+                        
                     </ul>
                 </div>
             </div>

@@ -36,6 +36,9 @@ Vue.component('testx-component', require('./components/Test.vue').default); //Re
 
 Vue.component('testx2-component', require('./components/testx.vue').default); //Litenes arena
 
+
+//Vue.component('edito-vue', require('./components/Edito.vue').default); 
+
 //import testx-component from  './components/test.vue';
 
 /**

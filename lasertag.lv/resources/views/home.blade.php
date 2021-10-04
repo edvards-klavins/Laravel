@@ -15,6 +15,16 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+
+                    <a>
+                        <h3 class=".text-dark">Niks: {{ Auth::user()->name }}</h3> 
+                    </a>
+
+                    <h3 class=".text-dark">Bilance: {{ Auth::user()->balance }}</h3>
+
+                    
+
+
                 </div>
             </div>
         </div>

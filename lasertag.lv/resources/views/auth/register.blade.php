@@ -40,6 +40,22 @@
                             </div>
                         </div>
 
+                        <div class="form-group row"> <!--  (vards sifreta vidus) -->
+                            <label for="vards" class="col-md-4 col-form-label text-md-right">{{ __('Vārdsv2') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="vards" type="text" class="form-control @error('vards') is-invalid @enderror" name="vards" value="{{ old('vards') }}" required autocomplete="vards" autofocus>
+
+                                @error('vards')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                   
+
                         <div class="form-group row"> <!--  (Parole vidus) -->
                             <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Parole') }}</label>
 
@@ -47,6 +63,20 @@
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
                                 @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
+                        <div class="form-group row"> <!--  (dzimums vidus) -->
+                            <label for="dzimums" class="col-md-4 col-form-label text-md-right">{{ __('Dzimums male/female') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="dzimums" type="text" class="form-control @error('dzimums') is-invalid @enderror" name="dzimums" value="{{ old('dzimums') }}" required autocomplete="dzimums" autofocus>
+
+                                @error('dzimums')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>
